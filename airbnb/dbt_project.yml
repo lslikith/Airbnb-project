@@ -33,4 +33,5 @@ models:
     src:
       +materialized: view
     fct:
-      +materialized: table
+      +materialized: incremental
+  
